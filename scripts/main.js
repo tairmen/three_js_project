@@ -2,6 +2,7 @@
 // three.js cube drawing
 
 let video = document.getElementById('video');
+video.crossOrigin = "anonymous";
 let playButton = document.getElementById("playbutton");
 playButton.addEventListener("click", handlePlayButton, false);
 playVideo();
